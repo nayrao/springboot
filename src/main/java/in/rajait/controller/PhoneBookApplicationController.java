@@ -45,7 +45,7 @@ public class PhoneBookApplicationController {
 	
 	@RequestMapping("/")
 	public String welcome() {
-		String msg="Welcome to SpringBoot ";
+		String msg="Welcome to SpringBoot with angular ";
 		return msg;
 	}
 }
